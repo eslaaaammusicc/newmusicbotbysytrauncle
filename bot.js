@@ -26,7 +26,7 @@ client.on('ready', () => {
     client.user.setStatus("dnd")
 });
 //by ! - .'
-const prefix = "$"
+const prefix = "e"
 client.on('message', async msg => { // eslint-disable-line
     if (msg.author.bot) return undefined;
     //by ! - .'
@@ -77,7 +77,7 @@ client.on('message', async msg => { // eslint-disable-line
                     .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 //by ! - .'
-                    .setFooter("Threaper")
+                    .setFooter("E S L A M")
                     msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
                    
                     // eslint-disable-next-line max-depth
@@ -243,7 +243,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
  
 
 client.on('message', message => {
-var prefix = "$vip";
+var prefix = "esvip";
  
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
